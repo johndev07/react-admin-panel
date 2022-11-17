@@ -1,0 +1,50 @@
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  height: calc(100vh - 50px);
+  position: sticky;
+  top: 50px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sidebarWrapper {
+  padding: 20px;
+  color: #555;
+}
+
+.sidebarMenu {
+  margin-bottom: 20px;
+}
+
+.sidebarTitle {
+  font-size: 13px;
+  color: rgb(57 57 57);
+  margin: 10px 0;
+}
+
+.sidebarList {
+  list-style: none;
+  margin-top: 0px;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.sidebarList li {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 3px;
+}
+.sidebarList li svg {
+  margin-left: 8px;
+}
+
+.sidebarList li:hover,
+.sidebarList li.active {
+  background-color: lightgray;
+}

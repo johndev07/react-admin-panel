@@ -1,0 +1,56 @@
+.topbar {
+  width: 100%;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+}
+
+.topbarwrapper {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.top_right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+}
+
+.notificationBadge {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  font-size: 8px;
+  display: flex;
+  right: -5px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.705);
+  border-radius: 50%;
+  color: #fff;
+  top: -5px;
+}
+
+.avtar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
